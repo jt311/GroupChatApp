@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "socket.h": "c",
+        "types.h": "c",
+        "malloc.h": "c",
+        "stdio.h": "c"
+    }
+}

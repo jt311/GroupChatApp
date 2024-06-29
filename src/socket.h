@@ -78,7 +78,7 @@ void* receiveAndPrintIncomingData(void* conn_sfd_ptr) {
 
         if (bytes_recv > 0) {
             printf("recv()'d %d bytes of data in incData_Buffer\n", bytes_recv);
-            printf("Data received -> %s", incData_Buffer);
+            printf("Data received --> %s", incData_Buffer);
             broadcastClientMsg(incData_Buffer, *conn_sfd);
             memset(incData_Buffer, '\0', sizeof(incData_Buffer));
         }
